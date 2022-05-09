@@ -1,0 +1,22 @@
+{
+    "name": "csifile",
+    "displayName": ".csifile Support",
+    "description": "Adds support for Cog Soup Inc's .csifiles",
+    "version": "0.0.1",
+    "publisher": "tmasterterrarian",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "contributes": {
+        "languages": [{
+            "id": "json",
+            "extensions": ["csifile"]
+        }]
+    },
+    "files.associations": {
+        "*.csifile": "typescript"
+    },
+    "repository": {
+        "url": "https://github.com/tmaster-terrarian/csifile"
+    }
+}
